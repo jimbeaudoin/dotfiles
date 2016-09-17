@@ -12,7 +12,7 @@ The file is a copy of https://github.com/git/git/blob/master/contrib/completion/
 
 #### PS1 Prompt Example  (I like to keep my prompt clean)
 
-Copy this line of code to your `.bashrc` file.
+Copy the following lines of code to your `.bashrc` file.
 
 ```
 source ~/.git-prompt.sh
