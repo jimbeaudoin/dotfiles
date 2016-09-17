@@ -23,4 +23,5 @@ GIT_PS1_SHOWUNTRACKEDFILES=1
 PS1='\u:\W$(__git_ps1 " (%s)")\$ '
 ```
 
-The result is going to be something like: `jim:go (master)$` for a clean repos.
+The result for a clean repos is going to be something like:  
+`jim:go (master)$` or `<username>:<current_folder> (<current_branch>)$`
