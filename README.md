@@ -17,10 +17,10 @@ source ~/.git-prompt.sh
 GIT_PS1_SHOWDIRTYSTATE=1
 GIT_PS1_SHOWUNTRACKEDFILES=1
 
-# Customize as needed
+# Customize as needed (I like to keep my prompt clean)
 PS1='\u:\W$(__git_ps1 " (%s)")\$ '
 ```
-#### PS1 Prompt Example  (I like to keep my prompt clean)
+#### PS1 Prompt Example
 
 The result is going to be: `<username>:<current_folder> (<current_branch>)$`
 
