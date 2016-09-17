@@ -7,7 +7,10 @@ The `.git-prompt` file is going to allow you to see repository status in your pr
 The file is a copy of https://github.com/git/git/blob/master/contrib/completion/git-prompt.sh
 
 #### Installation
- 1. Copy the file to your home directory.
+ 1. Copy the file to your home directory. 
+    
+    (If you are using the file from the git repos, don't forget to add the dot in front of the filename)
+ 
  2. Update your `.bashrc` PS1 prompt
  3. Copy the following lines of code to your `.bashrc` file.
 
