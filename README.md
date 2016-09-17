@@ -20,11 +20,10 @@ GIT_PS1_SHOWUNTRACKEDFILES=1
 # Customize as needed (I like to keep my prompt clean)
 PS1='\u:\W$(__git_ps1 " (%s)")\$ '
 ```
-#### PS1 Prompt Example
 
 The result is going to be: `<username>:<current_folder> (<current_branch>)$`
 
-#### Example with the Go repos:
+#### PS1 Prompt Example with the Go repos:
 
 Clean repos: `jim:go (master)$`
 
