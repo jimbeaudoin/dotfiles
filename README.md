@@ -23,5 +23,21 @@ GIT_PS1_SHOWUNTRACKEDFILES=1
 PS1='\u:\W$(__git_ps1 " (%s)")\$ '
 ```
 
-The result for a clean repos is going to be something like:  
-`jim:go (master)$` or `<username>:<current_folder> (<current_branch>)$`
+The result is going to be: `<username>:<current_folder> (<current_branch>)$`
+
+Example with the Go repos:
+
+Clean repos:  
+`jim:go (master)$` or 
+
+Changes not staged:  
+`jim:go (master *)$`
+
+Untracked files:  
+`jim:go (master %)$`
+
+You can also have both:  
+`jim:go (master *%)$`
+
+When you have staged files ready to be commited:  
+`jim:go (master +)$`
