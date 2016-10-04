@@ -1,0 +1,44 @@
+[global_config]
+  borderless = True
+[keybindings]
+[layouts]
+  [[default]]
+    [[[child0]]]
+      fullscreen = False
+      last_active_window = True
+      maximised = False
+      order = 0
+      parent = ""
+      position = 240:97
+      size = 1487, 968
+      title = /bin/bash
+      type = Window
+    [[[child1]]]
+      active_page = 0
+      labels = localhost, remote
+      last_active_term = 0b71fd94-91e8-4a3a-97f0-c4e2cfe72c91, 97d02c91-f9a5-4fe5-90f9-f4222f8f33a2
+      order = 0
+      parent = child0
+      type = Notebook
+    [[[terminal2]]]
+      order = 0
+      parent = child1
+      profile = default
+      type = Terminal
+      uuid = 0b71fd94-91e8-4a3a-97f0-c4e2cfe72c91
+    [[[terminal3]]]
+      order = 1
+      parent = child1
+      profile = default
+      type = Terminal
+      uuid = 97d02c91-f9a5-4fe5-90f9-f4222f8f33a2
+[plugins]
+[profiles]
+  [[default]]
+    background_image = None
+    font = Monospace 12
+    foreground_color = "#00ff00"
+    login_shell = True
+    scrollback_lines = 50000
+    show_titlebar = False
+    use_system_font = False
